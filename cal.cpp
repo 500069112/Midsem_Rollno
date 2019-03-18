@@ -9,4 +9,12 @@ pubic: int x,y;
        int multi(int,int)
        {return x*y;}
        int divide(int,int){return x/y;}
-};
+}a;
+int main()
+{	int x=10,y=5;
+    a.sum(x,y);
+    a.subst(x,y);
+    a.multi(x,y);
+    a.divide(x,y);
+}
+
